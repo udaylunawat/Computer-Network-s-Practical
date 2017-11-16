@@ -1,0 +1,7 @@
+while t != len(reply):
+	if reply[t] == '1':
+		reply1 = reply1 + '0'
+	else:
+		reply1 = reply1 + '1'
+	t = t + 2
+print 'recieved decoded : ', repr(reply1)
